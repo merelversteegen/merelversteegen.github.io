@@ -4,7 +4,7 @@ Copy code
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prijzen Sieraden</title>
+    <title>Prijzen van de sieraden</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,21 +36,21 @@ Copy code
     <header>
         <h1>Prijzen Sieraden</h1>
     </header>
-    <div class="container">
-        <div class="sieraad">
+    <div class="Kettingen">
+        <div class="Smiley ketting">
             <h2>Sieraad 1</h2>
-            <p>Prijs: $50</p>
-            <p>Omschrijving: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Prijs: 10 euro</p>
+            <p>Omschrijving: Van roetsvrijsstaal, super leuk!</p>
         </div>
-        <div class="sieraad">
+        <div class="Good life ketting">
             <h2>Sieraad 2</h2>
-            <p>Prijs: $75</p>
-            <p>Omschrijving: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Prijs: 12 euro</p>
+            <p>Omschrijving: Erg populaire ketting, staat bij alles leuk. </p>
         </div>
-        <div class="sieraad">
+        <div class="Parel ketting">
             <h2>Sieraad 3</h2>
-            <p>Prijs: $100</p>
-            <p>Omschrijving: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Prijs: 10 euro</p>
+            <p>Omschrijving: Geweldige ketting!</p>
         </div>
         <!-- Voeg meer sieraden toe zoals nodig -->
     </div>
