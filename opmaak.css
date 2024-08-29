@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html> 
-<head> 
-<title>Dropdown</title>
-</head> 
-<body>
+
 .third-level-menu
 {
     position: absolute;
@@ -19,9 +14,9 @@
 .third-level-menu > li
 {
     height: 30px;
-    background: #999999;
+    background: #f7f8ea ;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+.third-level-menu > li:hover { background: #f7f8ea ; }
 
 .second-level-menu
 {
@@ -39,9 +34,9 @@
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: #f7f8ea ;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: #f7f8ea ; }
 
 .top-level-menu
 {
@@ -72,7 +67,7 @@
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: #080808;
     text-decoration: none;
     padding: 0 0 0 10px;
 
@@ -81,6 +76,3 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #ffd5f0; }
-</body>
-</html> 
-\
