@@ -18,7 +18,7 @@
     height: 30px;
     background-color: #ffe5fe ;
 }
-.third-level-menu > li:hover { background-color: #ffe5fe ; }
+.third-level-menu > li:hover { background-color: #c1bcbc ; }
 
 .second-level-menu
 {
@@ -38,7 +38,7 @@
     height: 30px;
     background-color: #ffe5fe ;
 }
-.second-level-menu > li:hover { background-color: #ffe5fe ; }
+.second-level-menu > li:hover { background-color: #c1bcbc ; }
 
 .top-level-menu
 {
@@ -55,7 +55,7 @@
     width: 150px;
     background-color: #ffe5fe;
 }
-.top-level-menu > li:hover { background: #6e6d6d; }
+.top-level-menu > li:hover { background: #c1bcbc; }
 
 .top-level-menu li:hover > ul
 {
@@ -77,4 +77,4 @@
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #6e6d6d; }
+.top-level-menu a:hover { color: #c1bcbc; }
