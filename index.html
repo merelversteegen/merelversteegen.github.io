@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="opmaak.css">
     <style>
         body {
-            background-color: #f7eff6; /* Licht beige kleur */
+            background-color: #fdfaed; /* Licht beige kleur */
             margin: 0;
             font-family: Arial, sans-serif;
         }
@@ -22,12 +22,13 @@
             padding: 0;
             margin: 0;
             background-color: #eee;
-            width: 100%; /* Menu beslaat de volledige breedte van de pagina */
+            width: 100%; /* Zorg ervoor dat het menu de volledige breedte van de pagina beslaat */
             position: relative;
+            box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
         }
         .top-level-menu > li {
             display: inline-block;
-            position: relative; /* Voor correcte positionering van de submenu's */
+            position: relative; /* Dit is nodig voor het positioneren van de submenu's */
         }
         .top-level-menu > li > a {
             display: block;
@@ -35,6 +36,8 @@
             text-decoration: none;
             color: #333;
             white-space: nowrap; /* Voorkom dat de tekst op een nieuwe regel terechtkomt */
+            box-sizing: border-box; /* Zorg ervoor dat padding wordt meegerekend in de breedte */
+            text-align: center; /* Centreer de tekst */
         }
         .top-level-menu > li:hover > a {
             background-color: #000; /* Zwarte achtergrond bij hover */
@@ -48,8 +51,9 @@
             padding: 0;
             margin: 0;
             background-color: #eee;
-            width: 100%; /* Menu beslaat de volledige breedte van de bovenliggende item */
+            width: 100%; /* Zorg ervoor dat de submenu's de volledige breedte van hun bovenliggende item beslaan */
             left: 0; /* Zorg ervoor dat de submenu's uitgelijnd zijn met hun bovenliggende item */
+            box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
         }
         .second-level-menu {
             top: 100%; /* Plaats de tweede-niveau submenu direct onder de eerste-niveau item */
@@ -57,6 +61,7 @@
         .third-level-menu {
             top: 0; /* Plaats de derde-niveau submenu direct onder het tweede-niveau item */
             left: 100%; /* Plaats de derde-niveau submenu rechts van het tweede-niveau item */
+            width: auto; /* Zorg ervoor dat de breedte automatisch is */
         }
         .top-level-menu > li:hover .second-level-menu,
         .second-level-menu li:hover .third-level-menu {
@@ -71,6 +76,8 @@
             padding: 10px 15px;
             text-decoration: none;
             color: #333;
+            box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
+            text-align: center; /* Centreer de tekst */
         }
         .second-level-menu li:hover > a,
         .third-level-menu li:hover > a {
