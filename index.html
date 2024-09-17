@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jouw Homepage</title>
-    <link rel="stylesheet" href="opmaak.css">
     <style>
         body {
             background-color: #fdfaed; /* Licht beige kleur */
@@ -38,6 +37,7 @@
             white-space: nowrap; /* Voorkom dat de tekst op een nieuwe regel terechtkomt */
             box-sizing: border-box; /* Zorg ervoor dat padding wordt meegerekend in de breedte */
             text-align: center; /* Centreer de tekst */
+            transition: background-color 0.3s, color 0.3s; /* Soepele overgang voor hover-effecten */
         }
         .top-level-menu > li:hover > a {
             background-color: #000; /* Zwarte achtergrond bij hover */
@@ -78,6 +78,7 @@
             color: #333;
             box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
             text-align: center; /* Centreer de tekst */
+            transition: background-color 0.3s, color 0.3s; /* Soepele overgang voor hover-effecten */
         }
         .second-level-menu li:hover > a,
         .third-level-menu li:hover > a {
@@ -88,7 +89,7 @@
 </head>
 <body>
     <header>
-        <h1>Welkom bij de website</h1>
+        <h1>Welkom bij dit dropdown menu</h1>
     </header>
     <ul class="top-level-menu">
         <li><a href="index.html">kopje 1</a></li>
