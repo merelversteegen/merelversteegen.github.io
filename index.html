@@ -8,6 +8,68 @@
     <style>
         body {
             background-color: #fdfaed; /* Licht beige kleur */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        .top-level-menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #eee;
+            width: 100%; /* Zorg ervoor dat het menu de volledige breedte van de pagina beslaat */
+            position: relative; /* Zorg ervoor dat de submenu's relatief gepositioneerd kunnen worden */
+        }
+        .top-level-menu > li {
+            display: inline-block;
+            position: relative; /* Dit is nodig voor het positioneren van de submenu's */
+        }
+        .top-level-menu > li > a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #333;
+            white-space: nowrap; /* Voorkom dat de tekst op een nieuwe regel terechtkomt */
+        }
+        .top-level-menu > li:hover > a {
+            background-color: #000; /* Zwarte achtergrond bij hover */
+            color: #f69; /* Roze kleur bij hover */
+        }
+        .second-level-menu,
+        .third-level-menu {
+            display: none;
+            position: absolute;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #eee;
+            width: 100%; /* Zorg ervoor dat de submenu's de volledige breedte van hun bovenliggende item beslaan */
+            top: 100%; /* Plaats de submenu's direct onder hun bovenliggende item */
+            left: 0; /* Zorg ervoor dat de submenu's uitgelijnd zijn met hun bovenliggende item */
+        }
+        .top-level-menu > li:hover .second-level-menu,
+        .second-level-menu li:hover .third-level-menu {
+            display: block;
+        }
+        .second-level-menu li,
+        .third-level-menu li {
+            position: relative;
+        }
+        .second-level-menu li > a,
+        .third-level-menu li > a {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .second-level-menu li:hover > a,
+        .third-level-menu li:hover > a {
+            background-color: #000; /* Zwarte achtergrond bij hover */
+            color: #f69; /* Roze kleur bij hover */
         }
     </style>
 </head>
