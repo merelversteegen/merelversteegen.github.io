@@ -23,7 +23,7 @@
             background-color: #f3eded;
             width: 100%; 
             position: relative;
-            box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
+            box-sizing: border-box; 
         }
         .top-level-menu > li {
             display: inline-block;
@@ -35,8 +35,8 @@
             text-decoration: none;
             color: #333;
             white-space: nowrap; 
-            box-sizing: border-box; /* Zorg ervoor dat padding wordt meegerekend in de breedte */
-            transition: background-color 0.3s, color 0.3s; /* Soepele overgang voor hover-effecten */
+            box-sizing: border-box; 
+            transition: background-color 0.3s, color 0.3s; 
         }
         .top-level-menu > li:hover > a {
             background-color: #8a8282; 
@@ -51,17 +51,17 @@
             padding: 0;
             margin: 0;
             background-color: #f3eded;
-            width: 100%; /* Zorg ervoor dat de submenu's de volledige breedte van hun bovenliggende item beslaan */
-            left: 0; /* Zorg ervoor dat de submenu's uitgelijnd zijn met hun bovenliggende item */
-            box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
+            width: 100%; 
+            left: 0; 
+            box-sizing: border-box; 
         }
         .second-level-menu {
-            top: 100%; /* Plaats de tweede-niveau submenu direct onder de eerste-niveau item */
+            top: 100%; 
         }
         .third-level-menu {
-            top: 0; /* Plaats de derde-niveau submenu direct onder het tweede-niveau item */
-            left: 100%; /* Plaats de derde-niveau submenu rechts van het tweede-niveau item */
-            width: auto; /* Zorg ervoor dat de breedte automatisch is */
+            top: 0; 
+            left: 100%; 
+            width: auto; 
         }
         .top-level-menu > li:hover .second-level-menu,
         .second-level-menu li:hover .third-level-menu {
@@ -76,9 +76,9 @@
             padding: 10px 15px;
             text-decoration: none;
             color: #333;
-            box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
-            text-align: center; /* Centreer de tekst */
-            transition: background-color 0.3s, color 0.3s; /* Soepele overgang voor hover-effecten */
+            box-sizing: border-box; 
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s; 
         }
         .second-level-menu li:hover > a,
         .third-level-menu li:hover > a {
