@@ -21,22 +21,21 @@
             padding: 0;
             margin: 0;
             background-color: #eee;
-            width: 100%; /* Zorg ervoor dat het menu de volledige breedte van de pagina beslaat */
+            width: 100%; 
             position: relative;
             box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegerekend in de breedte */
         }
         .top-level-menu > li {
             display: inline-block;
-            position: relative; /* Dit is nodig voor het positioneren van de submenu's */
+            position: relative; 
         }
         .top-level-menu > li > a {
             display: block;
             padding: 10px 15px;
             text-decoration: none;
             color: #333;
-            white-space: nowrap; /* Voorkom dat de tekst op een nieuwe regel terechtkomt */
+            white-space: nowrap; 
             box-sizing: border-box; /* Zorg ervoor dat padding wordt meegerekend in de breedte */
-            text-align: center; /* Centreer de tekst */
             transition: background-color 0.3s, color 0.3s; /* Soepele overgang voor hover-effecten */
         }
         .top-level-menu > li:hover > a {
