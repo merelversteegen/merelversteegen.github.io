@@ -35,7 +35,7 @@
 .second-level-menu > li
 {
     position: relative;
-    height: 30px;
+    /*height: 30px;*/
     background-color: #ffe5fe ;
 }
 .second-level-menu > li:hover { background-color: #c1bcbc ; }
